@@ -38,6 +38,7 @@ Returns a simple welcome message:
 ```
  Welcome to VibeCheck API – Check your vibe, share your tribe!
 ```
+![1](https://github.com/user-attachments/assets/860cf6f8-cbf4-46e4-99b5-60a52b368d32)
 
 ---
 
@@ -53,8 +54,10 @@ Returns a list of all sample vibes in JSON format:
     "song": " ",
     "user": " "
   },
+  ........... SO ON.. end of the list
 ]
 ```
+![2](https://github.com/user-attachments/assets/c9657056-0b3d-4a91-9349-2e48c08f66c6)
 
 ---
 
@@ -74,6 +77,7 @@ Returns a single vibe matching the provided ID.
   "user": "_"
 }
 ```
+![3](https://github.com/user-attachments/assets/487d53b3-c14b-4ea8-8313-90bc7bb6c8cd)
 
 If the ID is not found:
 
@@ -83,6 +87,7 @@ If the ID is not found:
   "message": "That vibe is off the grid, not found."
 }
 ```
+![4](https://github.com/user-attachments/assets/952abfd3-d0cb-465a-b1b0-8aac24711ab9)
 
 ---
 
@@ -108,6 +113,8 @@ Examples:
     user: ' '
   },
 ]
+
+like this i have taken , three 3 songs from 3 different mmovies
 ```
 
 ---
