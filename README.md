@@ -14,8 +14,23 @@
 - Bun instead of npm as npm is not working in my laptop 
 - Express.js to serve HTTP endpoints
 
+##  Sample Vibes Data (in `data/sampleVibes.js`)
 
-### 2. Start the server
+```js
+[
+  {
+    id: 1,
+    mood: ' ',
+    song: ' ',
+    user: ' '
+  },
+]
+
+like this i have taken , three 3 songs from 3 different mmovies
+```
+
+
+###  Start the server
 
 ```bash
 bun server.js
@@ -99,33 +114,6 @@ Examples:
 * `GET http://localhost:5000/api/v1/vibes`
 * `GET http://localhost:5000/api/v1/vibes/1`
 * `GET http://localhost:5000/api/v1/vibes/99` (not found)
-
----
-
-##  Sample Vibes Data (in `data/sampleVibes.js`)
-
-```js
-[
-  {
-    id: 1,
-    mood: ' ',
-    song: ' ',
-    user: ' '
-  },
-]
-
-like this i have taken , three 3 songs from 3 different mmovies
-```
-
----
-
-##  Completion Checklist
-
-* [x] Project structure in place
-* [x] Server responds on port 5000
-* [x] Root endpoint returns welcome message
-* [x] `GET /api/v1/vibes` returns all vibes
-* [x] `GET /api/v1/vibes/:id` returns single vibe or 404
 
 ---
 
